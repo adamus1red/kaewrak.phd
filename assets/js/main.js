@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded",
     function () { new SweetScroll({}); 
     particlesJS("particles-js", { 
         particles: { 
-            number: { value: 160, density: { enable: !0, value_area: 500 } },
+            number: { value: 70, density: { enable: !0, value_area: 500 } },
             color: { value: "#ffffff" }, 
             shape: { type: "circle", stroke: { width: 0, color: "#000000" }, polygon: { nb_sides: 5 }, image: { src: "img/github.svg", width: 100, height: 100 } }, 
             opacity: { value: 1, random: !0, anim: { enable: !0, speed: 1, opacity_min: 0, sync: !1 } }, 
