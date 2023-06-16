@@ -1,0 +1,20 @@
+# Site settings
+title: Mauricio Urraco
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Dr. Keerati Kaewrak
+#user_description: |
+#  I'm a Cybersecurity Engineer from Glasgow, always searching for the next challenge; no task is too scary nor too difficult.
+#  Currently I am designing, architecting, deploying, and operating security tools and solutions at a large multi-national.
+user_title: Artifical Inteligence & Machine Learning Researcher
+email: keerati@kaewrak.phd
+# instagram_username: lorem_ipsum
+# twitter_username: lorem_ipsum
+#github_username: adamus1red
+linkedin_username: keerati-kaewrak-234924187
+# gplus_username:  lorem_ipsum
+
+exclude: ['package.json', 'src' , 'node_modules']
