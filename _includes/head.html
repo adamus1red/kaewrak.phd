@@ -7,5 +7,8 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
-  <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png'  | prepend: site.baseurl }}" >
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Sans+Thai:wght@100;400&family=Noto+Sans:ital,wght@0,100;0,700;0,900;1,200;1,400;1,500&family=Roboto:wght@100;400;700&display=swap');
+  </style>
 </head>
