@@ -25,12 +25,13 @@
   .site-title {
     font-size: 50px;
     font-family: "Roboto", sans-serif;
+    font-weight: 100;
     display: block;
     line-height: 1;
     color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
-      font-size: 76px;
+      font-size: 5rem;
     }
   }
   .site-description {
@@ -40,7 +41,7 @@
     color: #FFF;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
-      font-size: 34px;
+      font-size: 2.3rem;
     }
   }
 }

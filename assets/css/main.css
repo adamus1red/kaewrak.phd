@@ -9747,6 +9747,7 @@ sup, sub {
 .header .site-title {
   font-size: 50px;
   font-family: "Roboto", sans-serif;
+  font-weight: 100;
   display: block;
   line-height: 1;
   color: #FFF;
@@ -9754,7 +9755,7 @@ sup, sub {
 @media only screen and (min-width: 768px) {
   .header .site-title {
     margin: 0;
-    font-size: 76px;
+    font-size: 5rem;
   }
 }
 .header .site-description {
@@ -9766,7 +9767,7 @@ sup, sub {
 }
 @media only screen and (min-width: 768px) {
   .header .site-description {
-    font-size: 34px;
+    font-size: 2.3rem;
   }
 }
 
