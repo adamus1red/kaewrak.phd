@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:4.2.2 as Builder
+FROM jekyll/jekyll:4.4.1 as Builder
 
 #WORKDIR /app
 ADD . /srv/jekyll
