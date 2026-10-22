@@ -10,7 +10,7 @@ RUN set -x && npm install
 RUN set -x && jekyll build --trace
     #bundle install
 
-FROM nginx:1.31.7
+FROM nginx:1.31.8
 
 COPY --from=Builder /srv/jekyll/_site /usr/share/nginx/html
 ADD ./404 /usr/share/nginx/404
